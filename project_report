@@ -1,0 +1,58 @@
+Fake News Detection Web App – Project Report
+
+Project Title:
+Fake News Detection using OpenAI GPT and Streamlit
+
+Objective:
+To develop a web application that determines whether a news article is fake or real using OpenAI GPT-3.5.
+
+Introduction:
+Fake news is a growing concern in the digital age. This project leverages OpenAI’s GPT model and Streamlit to analyze and verify the authenticity of news content.
+
+Tools & Technologies Used:
+- Python 3.x
+- Streamlit
+- OpenAI API (GPT-3.5)
+- GitHub
+- Streamlit Cloud
+
+System Architecture:
+Frontend (Streamlit UI) -> Backend (GPT-3.5 API) -> Response (Fake or Real with explanation)
+
+Features:
+- Analyze any news text
+- GPT-3.5 powered analysis
+- Instant response
+- Secure key storage
+- Live web app
+
+How It Works:
+1. User enters a news article.
+2. App sends it to GPT-3.5.
+3. GPT classifies it as Fake or Real.
+4. Result displayed with reason.
+
+Folder Structure:
+fake-news-detector/
+├── app.py
+├── requirements.txt
+└── README.md
+
+Deployment Instructions:
+1. Upload to GitHub.
+2. Deploy on Streamlit Cloud.
+3. Add OPENAI_API_KEY in Secrets Manager.
+
+Limitations:
+- Requires OpenAI quota
+- GPT general understanding
+- No training on specific dataset
+
+Future Improvements:
+- Fine-tuned fake news model
+- Confidence score
+- Multilingual support
+- Source checker
+
+Conclusion:
+This project shows how GPT-3.5 can be used in fake news detection with a simple, powerful, and interactive web app.
